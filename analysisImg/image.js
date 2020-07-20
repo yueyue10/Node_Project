@@ -37,6 +37,7 @@ async function getAccessToken() {
             res.on('end', function () {
                 // logger.info(data)
                 var jsObj = JSON.parse(data)
+                console.log(jsObj)
                 access_token = jsObj.access_token;
             });
         }
