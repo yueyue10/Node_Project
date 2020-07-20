@@ -1,0 +1,30 @@
+{
+  "name": "node_project",
+  "version": "1.0.0",
+  "description": "nodejs 项目",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "log4js": "^6.0.0",
+    "officegen": "^0.6.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "superagent": "^5.3.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yueyue10/Node_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yueyue10/Node_Project/issues"
+  },
+  "homepage": "https://github.com/yueyue10/Node_Project#readme"
+}
